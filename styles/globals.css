@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .heroButton {
+        @apply px-6 py-2 border border-[#6A5ACD] rounded-full uppercase text-xs tracking-widest
+        text-[rgb(230,230,250)] transition-all hover:border-white/60 hover:text-white/60
+    }
+    .readButton {
+        @apply px-6 py-2 border border-[#E6E6FA] uppercase text-xs tracking-widest
+        text-[rgb(230,230,250)] transition-all hover:border-white/60 hover:text-white/60
+    }
+    .contactInput{
+        @apply outline-none bg-[#00BFFF]/50 rounded-sm border-b px-6 border-[#6A5ACD]
+        text-[#0000CD] placeholder-white transition-all focus:border-[#B0E0E6]
+        focus:text-white
+    }
+}
