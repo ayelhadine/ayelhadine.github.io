@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
-
+import { DocumentArrowDownIcon} from '@heroicons/react/24/solid'
 
 type Props = {}
 
@@ -38,9 +38,12 @@ function Header({}: Props) {
             <SocialIcon url="https://github.com/ayelhadine/" 
             fgColor='lavender'
             bgColor='transparent'/>
-        </motion.div>
 
-        
+        <Link href={"https://drive.google.com/file/d/1Uu8m7RdeqbTAOzJQOTvjusrawTJUn0hl/view?usp=sharing"}>
+        <DocumentArrowDownIcon className='text-lavender h-7 w-7 animate-pulse'/>
+        </Link>
+        </motion.div>
+    
         
          <motion.div
          initial={{
@@ -56,7 +59,8 @@ function Header({}: Props) {
           transition={{
             duration:1
           }}>  
-       
+          
+
         <SocialIcon 
             network='email'
             fgColor='lavender'

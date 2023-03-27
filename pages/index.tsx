@@ -62,7 +62,7 @@ export default function Home() {
         <img 
         className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0
         cursor-pointer'
-        src="https://storage.googleapis.com/kaggle-avatars/images/4652224-kg.png?r=1679222774903" alt="" />
+        src="https://storage.googleapis.com/kaggle-avatars/images/4652224-kg.png?r=1679222774903" alt="" />    
       </div>
     </footer>
     </Link>

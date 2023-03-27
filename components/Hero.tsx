@@ -8,7 +8,7 @@ type Props = {}
 function Hero({}: Props) {
     const [text,count] = useTypewriter({
         words:["Hello, It's Ayoub El Hadine",
-            "I am a Data Wizard & Machine Learning Expert",
+            "I am a Data Wizard & Machine Learning Engineer",
             "Unlock the Full Potential of Your Data!"],
         loop:true,
         delaySpeed:2000
